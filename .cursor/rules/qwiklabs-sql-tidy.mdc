@@ -1,0 +1,17 @@
+---
+description: Verbatim whitespace-only tidy rules for Qwiklabs challenge-lab SQL in this repo
+globs: "**/*.sql"
+alwaysApply: false
+---
+
+# Qwiklabs Challenge Lab SQL
+
+When editing or tidying `.sql` challenge-lab write-ups in this repo:
+
+- Keep **every** original word and SQL verbatim (prompts, comments, commented thinking, answers).
+- Tidy **whitespace only** (blank lines / EOF newline). No condensed prompts, no AI approach notes, no new prose labels.
+- Do not delete commented thinking; uncommented SQL is the answer.
+- Keep `qwiklabs-gcp-…` project IDs as-is.
+- Prefer course-folder layout: `<Lab Name>/<Lab Name>: Challenge Lab.sql`.
+- Leave existing `.md` labs alone unless asked.
+- Read `.cursor/skills/tidy-qwiklabs-challenge-sql/SKILL.md` for the full workflow and verification step.
